@@ -21,7 +21,7 @@ let result3 = arr3.map(function(item) {
 })
 console.log(result3);
 
-// для отправленной в функцию строки найти каким по счету является последнее вхождение  слова "lorem ipsum", регистр не важен
+//3. для отправленной в функцию строки найти каким по счету является последнее вхождение  слова "lorem ipsum", регистр не важен
 function loremLast() {
     console.log(string.toLowerCase().lastIndexOf('lorem ipsum'));
   }
